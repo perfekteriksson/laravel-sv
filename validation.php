@@ -97,7 +97,9 @@ return array(
 		'name' => 'Namn',
 		'email' => 'Email',
 		'message' => 'Meddelande',
-		'password' => 'Lösenord'
+		'password' => 'Lösenord',
+		'width' => 'Bredd',
+		'height' => 'Höjd'
 	),
 
 );
