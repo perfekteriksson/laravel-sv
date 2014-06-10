@@ -40,34 +40,34 @@ return array(
 	"integer"          => ":attribute måste vara ett heltal.",
 	"ip"               => ":attribute måste vara en giltig IP-adress.",
 	"max"              => array(
-		"numeric" => "The :attribute may not be greater than :max.",
-		"file"    => "The :attribute may not be greater than :max kilobytes.",
-		"string"  => "The :attribute may not be greater than :max characters.",
-		"array"   => "The :attribute may not have more than :max items.",
+		"numeric" => ":attribute kan inte vara störra än :max.",
+		"file"    => ":attribute får inte överskrida :max kilobyte.",
+		"string"  => ":attribute kan vara max :max tecken.",
+		"array"   => ":attribute kan inte innehålla fler än :max värden.",
 	),
-	"mimes"            => "The :attribute must be a file of type: :values.",
+	"mimes"            => ":attribute måste vara av typen :values.",
 	"min"              => array(
 		"numeric" => ":attribute måste vara minst :min.",
 		"file"    => ":attribute måste vara minst :min kb.",
 		"string"  => ":attribute måste vara minst :min tecken.",
 		"array"   => ":attribute måste ha minst :min värden.",
 	),
-	"not_in"           => "The selected :attribute is invalid.",
-	"numeric"          => "The :attribute must be a number.",
-	"regex"            => "The :attribute format is invalid.",
-	"required"         => "The :attribute field is required.",
-	"required_if"      => "The :attribute field is required when :other is :value.",
-	"required_with"    => "The :attribute field is required when :values is present.",
-	"required_without" => "The :attribute field is required when :values is not present.",
-	"same"             => "The :attribute and :other must match.",
+	"not_in"           => "Det valda fältet :attribute är ogiltigt.",
+	"numeric"          => ":attribute måste vara ett giltigt nummer.",
+	"regex"            => ":attribute har fel format.",
+	"required"         => ":attribute kan inte vara tom.",
+	"required_if"      => ":attribute kan inte vara tom om :other är :value.",
+	"required_with"    => ":attribute kan inte vara tom om :values är satt.",
+	"required_without" => ":attribute kan inte vara tom om :values är tom.",
+	"same"             => ":attribute stämmer inte överrens med :other.",
 	"size"             => array(
-		"numeric" => "The :attribute must be :size.",
-		"file"    => "The :attribute must be :size kilobytes.",
-		"string"  => "The :attribute must be :size characters.",
-		"array"   => "The :attribute must contain :size items.",
+		"numeric" => ":attribute måste vara :size.",
+		"file"    => ":attribute måste vara :size kilobyte.",
+		"string"  => ":attribute måste bestå utav :size tecken.",
+		"array"   => ":attribute måste innehålla :size värden.",
 	),
-	"unique"           => "The :attribute has already been taken.",
-	"url"              => "The :attribute format is invalid.",
+	"unique"           => ":attribute är redan taget.",
+	"url"              => ":attribute måste vara en giltig URL.",
 
 	/*
 	|--------------------------------------------------------------------------
@@ -96,7 +96,8 @@ return array(
 	'attributes' => array(
 		'name' => 'Namn',
 		'email' => 'Email',
-		'message' => 'Meddelande'
+		'message' => 'Meddelande',
+		'password' => 'Lösenord'
 	),
 
 );
