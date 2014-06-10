@@ -99,7 +99,7 @@ return array(
 		'message' => 'Meddelande',
 		'password' => 'Lösenord',
 		'width' => 'Bredd',
-		'height' => 'Höjt'
+		'height' => 'Höjd'
 	),
 
 );
