@@ -25,7 +25,7 @@ return array(
 		"numeric" => ":attribute måste vara mellan :min och :max.",
 		"file"    => ":attribute måste vara mellan :min och :max kb.",
 		"string"  => ":attribute måste vara mellan :min och :max tecken.",
-		"array"   => ":attribute måste ha mellan :min och :max objekt.",
+		"array"   => ":attribute måste ha mellan :min och :max värden.",
 	),
 	"confirmed"        => ":attribute måste bekräftas.",
 	"date"             => ":attribute är inte ett giltigt datum.",
@@ -41,7 +41,7 @@ return array(
 	"ip"               => ":attribute måste vara en giltig IP-adress.",
 	"max"              => array(
 		"numeric" => ":attribute kan inte vara störra än :max.",
-		"file"    => ":attribute får inte överskrida :max kilobyte.",
+		"file"    => ":attribute får inte överskrida :max kb.",
 		"string"  => ":attribute kan vara max :max tecken.",
 		"array"   => ":attribute kan inte innehålla fler än :max värden.",
 	),
@@ -62,7 +62,7 @@ return array(
 	"same"             => ":attribute stämmer inte överrens med :other.",
 	"size"             => array(
 		"numeric" => ":attribute måste vara :size.",
-		"file"    => ":attribute måste vara :size kilobyte.",
+		"file"    => ":attribute måste vara :size kb.",
 		"string"  => ":attribute måste bestå utav :size tecken.",
 		"array"   => ":attribute måste innehålla :size värden.",
 	),
