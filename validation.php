@@ -99,7 +99,10 @@ return array(
 		'message' => 'Meddelande',
 		'password' => 'Lösenord',
 		'width' => 'Bredd',
-		'height' => 'Höjd'
+		'height' => 'Höjd',
+		'username' => 'Anvädndarnamn',
+		'firstname' => 'Förnamn',
+		'lastname' => 'Efternamn',
 	),
 
 );
